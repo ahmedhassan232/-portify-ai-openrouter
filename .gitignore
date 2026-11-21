@@ -1,0 +1,6 @@
+node_modules
+.next
+public/export/portfolio.css
+.env*.local
+.env
+*.tsbuildinfo

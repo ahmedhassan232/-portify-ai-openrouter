@@ -1,0 +1,451 @@
+{
+ "common": {
+  "appName": "Portify AI",
+  "back": "Back",
+  "continue": "Continue",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "delete": "Delete",
+  "add": "Add",
+  "remove": "Remove",
+  "close": "Close",
+  "retry": "Try again",
+  "undo": "Undo",
+  "redo": "Redo",
+  "loading": "Loading…",
+  "optional": "Optional",
+  "skip": "Skip to content",
+  "demo": "Sample data"
+ },
+ "nav": {
+  "features": "Features",
+  "how": "How it works",
+  "templates": "Templates",
+  "examples": "Examples",
+  "getStarted": "Get started",
+  "language": "Language",
+  "menu": "Menu"
+ },
+ "hero": {
+  "tagline": "Your CV. Your Story. Your Portfolio.",
+  "title": "Your CV Deserves More Than a PDF.",
+  "sub": "Turn your resume into a stunning professional portfolio website with AI. No coding. No design skills. Just upload, customize, and launch.",
+  "cta": "Create My Portfolio",
+  "ctaSecondary": "Explore Templates",
+  "value": "Transform your CV into a professional portfolio website in minutes. No coding, no design experience, and no account required.",
+  "cvLabel": "Your CV",
+  "siteLabel": "Your portfolio"
+ },
+ "how": {
+  "title": "How it works",
+  "s1": {
+   "title": "Upload Your CV",
+   "desc": "Drop in a PDF or Word file. Our server reads the text and keeps nothing."
+  },
+  "s2": {
+   "title": "Choose Your Style",
+   "desc": "Pick your profession and a template designed for it."
+  },
+  "s3": {
+   "title": "Generate & Customize",
+   "desc": "AI writes from your real CV. You edit everything."
+  }
+ },
+ "features": {
+  "title": "Everything you need to go live",
+  "items": {
+   "ai": {
+    "title": "AI-powered CV analysis",
+    "desc": "Structured extraction of your experience, skills and projects."
+   },
+   "templates": {
+    "title": "Profession-specific templates",
+    "desc": "Twelve distinct layouts for developers, designers, marketers and business roles."
+   },
+   "content": {
+    "title": "Automatic content generation",
+    "desc": "Sharper summaries and descriptions, never invented facts."
+   },
+   "editor": {
+    "title": "Live portfolio editor",
+    "desc": "Edit every section, reorder, hide and restyle."
+   },
+   "preview": {
+    "title": "Real-time preview",
+    "desc": "See desktop, tablet and mobile as you type."
+   },
+   "download": {
+    "title": "Downloadable website",
+    "desc": "A standalone ZIP you can host anywhere."
+   },
+   "noAccount": {
+    "title": "No account required",
+    "desc": "Your progress is saved in your browser."
+   }
+  }
+ },
+ "showcase": {
+  "title": "Templates for every profession",
+  "sub": "Twelve layouts. Same content, different story.",
+  "cta": "Browse all templates"
+ },
+ "examples": {
+  "title": "Made for your kind of work",
+  "sub": "Each profession gets a different emphasis.",
+  "use": "See templates",
+  "developer": {
+   "title": "Developers",
+   "desc": "Technologies, projects and GitHub up front."
+  },
+  "designer": {
+   "title": "Designers",
+   "desc": "Visual-first layouts for creative work."
+  },
+  "marketing": {
+   "title": "Marketers",
+   "desc": "Campaigns and strategy, with results only when your CV states them."
+  },
+  "business": {
+   "title": "Business professionals",
+   "desc": "Clean, formal layouts that read like a briefing."
+  }
+ },
+ "finalCta": {
+  "title": "Ready to turn your CV into something extraordinary?",
+  "button": "Build Your Portfolio"
+ },
+ "footer": {
+  "about": "About",
+  "features": "Features",
+  "templates": "Templates",
+  "privacy": "Privacy",
+  "contact": "Contact",
+  "rights": "All rights reserved."
+ },
+ "upload": {
+  "title": "Upload your CV",
+  "sub": "PDF or DOCX, up to 5 MB.",
+  "drop": "Drag and drop your CV here",
+  "or": "or",
+  "browse": "Browse files",
+  "privacy": "Your CV is processed securely. Your personal information is not stored in a central database.",
+  "privacyAi": "When AI processing starts, the extracted text is sent to the configured AI provider.",
+  "uploading": "Uploading…",
+  "reading": "Reading your file…",
+  "ready": "File ready",
+  "words": "Words detected: {count}",
+  "remove": "Remove file",
+  "another": "Upload another file",
+  "resume": {
+   "title": "Continue where you left off?",
+   "desc": "We found a draft saved in this browser.",
+   "continue": "Continue draft",
+   "fresh": "Start over"
+  },
+  "import": "Import JSON backup",
+  "localNote": "Drafts are stored in your browser. Clearing browser data may delete them."
+ },
+ "profession": {
+  "title": "What do you do?",
+  "sub": "This shapes the tone and the templates we suggest.",
+  "suggested": "Suggested from your CV",
+  "lang": {
+   "title": "Portfolio language",
+   "sub": "Your portfolio will be written in this language, whatever language your CV uses.",
+   "en": "English portfolio",
+   "ar": "Arabic portfolio",
+   "detected": "CV language detected: {lang}",
+   "nameEn": "English",
+   "nameAr": "Arabic"
+  },
+  "items": {
+   "software": "Software Developer",
+   "frontend": "Frontend Developer",
+   "backend": "Backend Developer",
+   "fullstack": "Full Stack Developer",
+   "uiux": "UI/UX Designer",
+   "graphic": "Graphic Designer",
+   "product": "Product Designer",
+   "marketer": "Digital Marketer",
+   "creator": "Content Creator",
+   "business": "Business Professional",
+   "accountant": "Accountant",
+   "engineer": "Engineer",
+   "student": "Student / Fresh Graduate",
+   "other": "Other"
+  }
+ },
+ "processing": {
+  "title": "Analyzing your CV",
+  "sub": "This usually takes under a minute.",
+  "steps": {
+   "prepare": "Preparing your text",
+   "analyze": "Reading your experience, skills and projects",
+   "validate": "Checking the result"
+  },
+  "notConfigured": {
+   "title": "AI isn't configured yet",
+   "desc": "Add OPENAI_API_KEY to your environment variables and restart. Until then you can explore the app with clearly labelled sample data.",
+   "dev": "Continue with sample data"
+  },
+  "missingCv": "We no longer have your CV text. Please upload it again.",
+  "reupload": "Upload again",
+  "done": {
+   "title": "Here's what we found",
+   "sub": "Review it now or fix details later in the editor. Nothing is invented: missing items stay empty.",
+   "roles": "Roles: {count}",
+   "projects": "Projects: {count}",
+   "skills": "Skills: {count}",
+   "education": "Education: {count}"
+  },
+  "warnings": {
+   "noExperience": "No work experience was found in your CV.",
+   "noContact": "No email or phone was found.",
+   "noSkills": "No skills were found.",
+   "noProjects": "No projects were found."
+  }
+ },
+ "gallery": {
+  "title": "Choose a template",
+  "sub": "Your content stays the same when you switch.",
+  "all": "All",
+  "select": "Use this template",
+  "recommended": "Recommended",
+  "desktop": "Desktop",
+  "tablet": "Tablet",
+  "mobile": "Mobile",
+  "preview": "Preview",
+  "generating": {
+   "title": "Polishing your content",
+   "desc": "Improving wording without adding anything that isn't in your CV.",
+   "skip": "Continue without AI polish"
+  }
+ },
+ "category": {
+  "developer": "Developer",
+  "designer": "Designer",
+  "marketing": "Marketing",
+  "business": "Business"
+ },
+ "template": {
+  "minimal-developer": {
+   "name": "Minimal Developer",
+   "desc": "A quiet single column in monospace."
+  },
+  "modern-tech": {
+   "name": "Modern Tech",
+   "desc": "Sticky profile sidebar with a card-based timeline."
+  },
+  "creative-coder": {
+   "name": "Creative Coder",
+   "desc": "Terminal-inspired hero and a bento grid."
+  },
+  "creative-designer": {
+   "name": "Creative Designer",
+   "desc": "Oversized type and image-first project cards."
+  },
+  "minimalist-designer": {
+   "name": "Minimalist Designer",
+   "desc": "Editorial rows with generous whitespace."
+  },
+  "visual-showcase": {
+   "name": "Visual Showcase",
+   "desc": "A gallery-first layout for visual work."
+  },
+  "corporate-marketer": {
+   "name": "Corporate Marketer",
+   "desc": "Banner header, stats strip and clean cards."
+  },
+  "growth-specialist": {
+   "name": "Growth Specialist",
+   "desc": "Bold headline with results-focused experience."
+  },
+  "personal-branding": {
+   "name": "Personal Branding",
+   "desc": "Centered portrait with a story-first flow."
+  },
+  "executive-portfolio": {
+   "name": "Executive Portfolio",
+   "desc": "Formal serif layout with ruled sections."
+  },
+  "professional-corporate": {
+   "name": "Professional Corporate",
+   "desc": "Dark header with a supporting side column."
+  },
+  "modern-business": {
+   "name": "Modern Business",
+   "desc": "Split hero and rounded card sections."
+  }
+ },
+ "portfolio": {
+  "summary": "About",
+  "skills": "Skills",
+  "experience": "Experience",
+  "projects": "Projects",
+  "education": "Education",
+  "certifications": "Certifications",
+  "languages": "Languages",
+  "additional": "Additional information",
+  "contact": "Contact",
+  "technical": "Technical",
+  "soft": "Soft skills",
+  "tools": "Tools",
+  "present": "Present",
+  "live": "Live",
+  "source": "Source",
+  "email": "Email",
+  "phone": "Phone",
+  "menu": "Menu",
+  "switchLabel": "العربية",
+  "statRoles": "Roles",
+  "statProjects": "Projects",
+  "statSkills": "Skills",
+  "highlights": "Highlights",
+  "getInTouch": "Get in touch",
+  "hello": "Hello, I'm",
+  "custom": "More"
+ },
+ "editor": {
+  "tabs": {
+   "content": "Content",
+   "preview": "Preview",
+   "design": "Design"
+  },
+  "sections": {
+   "personal": "Personal info",
+   "links": "Social links",
+   "custom": "Custom sections"
+  },
+  "fields": {
+   "fullName": "Full name",
+   "jobTitle": "Job title",
+   "email": "Email",
+   "phone": "Phone",
+   "location": "Location",
+   "website": "Website",
+   "linkedin": "LinkedIn",
+   "github": "GitHub",
+   "photo": "Profile photo",
+   "uploadPhoto": "Upload photo",
+   "summary": "Professional summary",
+   "itemsHint": "Separate with commas",
+   "position": "Position",
+   "company": "Company",
+   "start": "Start date",
+   "end": "End date",
+   "description": "Description",
+   "bullets": "One item per line",
+   "achievements": "Achievements",
+   "projectName": "Project name",
+   "technologies": "Technologies",
+   "projectUrl": "Project URL",
+   "githubUrl": "Repository URL",
+   "projectImage": "Project image",
+   "degree": "Degree",
+   "institution": "Institution",
+   "label": "Label",
+   "url": "URL",
+   "title": "Title",
+   "body": "Text"
+  },
+  "actions": {
+   "addItem": "Add entry",
+   "removeItem": "Remove entry",
+   "addCustom": "Add custom section",
+   "addLink": "Add link",
+   "hide": "Hide section",
+   "show": "Show section",
+   "moveUp": "Move up",
+   "moveDown": "Move down",
+   "saved": "All changes saved locally.",
+   "saving": "Saving…",
+   "reset": "Reset changes",
+   "resetTitle": "Reset all changes?",
+   "resetDesc": "Your edits will be replaced by the version generated from your CV.",
+   "aiBadge": "AI-improved. Review before publishing.",
+   "demoBanner": "You are viewing sample data, not your CV.",
+   "toPreview": "Preview & export"
+  }
+ },
+ "design": {
+  "template": "Template",
+  "accent": "Accent color",
+  "fontLabel": "Typography",
+  "bgLabel": "Background",
+  "widthLabel": "Layout width",
+  "fonts": {
+   "sans": "Sans",
+   "serif": "Serif",
+   "mono": "Mono"
+  },
+  "bgs": {
+   "light": "Light",
+   "dark": "Dark",
+   "tint": "Tinted"
+  },
+  "widths": {
+   "compact": "Compact",
+   "wide": "Wide"
+  }
+ },
+ "data": {
+  "menu": "Data",
+  "backup": "Download JSON backup",
+  "import": "Import JSON backup",
+  "clear": "Clear local project",
+  "clearConfirm": "Delete this draft from your browser? This cannot be undone.",
+  "note": "Clearing browser data may delete locally saved drafts."
+ },
+ "preview": {
+  "title": "Preview",
+  "backToEditor": "Back to editor",
+  "export": "Export portfolio"
+ },
+ "export": {
+  "title": "Export your portfolio",
+  "desc": "You'll get a standalone website that works without Portify AI.",
+  "includeOther": "Also include a {lang} version",
+  "includeOtherHint": "Adds a language toggle. Uses AI to translate your content.",
+  "building": "Building your website…",
+  "translating": "Translating…",
+  "start": "Build website",
+  "success": {
+   "title": "Your portfolio is ready",
+   "desc": "Unzip it and open index.html, or upload the folder to any static host."
+  },
+  "downloadZip": "Download Portfolio ZIP",
+  "downloadHtml": "Download single HTML file",
+  "previewSite": "Preview Portfolio",
+  "startAgain": "Start Again",
+  "cssMissing": "The export stylesheet is missing. Run `npm run build:export-css` and reload."
+ },
+ "privacy": {
+  "title": "Privacy",
+  "p1": "Portify AI has no accounts and no database. Your draft lives in your browser (LocalStorage and IndexedDB).",
+  "p2": "When you upload a CV, our server reads the file in memory to extract its text and does not keep the file.",
+  "p3": "When AI processing is requested, the extracted text is sent to the configured AI provider (OpenAI) to produce your portfolio content. Do not upload anything you are not comfortable sharing with that provider.",
+  "p4": "Exported websites are static files. They contain only what you see in the preview, with no tracking and no connection back to Portify AI.",
+  "p5": "Clearing your browser data may delete locally saved drafts. Download a JSON backup to be safe."
+ },
+ "errors": {
+  "not_configured": "AI isn't configured on this server.",
+  "rate_limited": "Too many requests. Please wait a few minutes.",
+  "too_large": "That file is larger than 5 MB.",
+  "unsupported": "Upload a PDF or DOCX file.",
+  "empty": "We couldn't find any text in this file.",
+  "scanned": "This PDF looks scanned (no selectable text). OCR support is needed; export a text-based PDF or use a DOCX instead.",
+  "corrupt": "We couldn't read this file. Try re-exporting it.",
+  "timeout": "The AI took too long to respond. Try again.",
+  "bad_output": "The AI returned something we couldn't use. Try again.",
+  "network": "Can't reach the server. Check your connection.",
+  "generic": "Something went wrong. Please try again.",
+  "invalid_backup": "That file isn't a valid Portify backup.",
+  "too_short": "This CV has too little text to analyze."
+ },
+ "toast": {
+  "imported": "Backup imported.",
+  "cleared": "Local project cleared.",
+  "exported": "Backup downloaded.",
+  "imageError": "Couldn't load that image."
+ }
+}
