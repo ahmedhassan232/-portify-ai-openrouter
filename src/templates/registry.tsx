@@ -5,6 +5,8 @@ import type { TemplateProps } from "@/components/portfolio/blocks";
 import { MinimalDeveloper } from "./developer/MinimalDeveloper";
 import { ModernTech } from "./developer/ModernTech";
 import { CreativeCoder } from "./developer/CreativeCoder";
+import { DashboardDeveloper } from "./developer/DashboardDeveloper";
+import { StudentPortfolio } from "./developer/StudentPortfolio";
 import { CreativeDesigner } from "./designer/CreativeDesigner";
 import { MinimalistDesigner } from "./designer/MinimalistDesigner";
 import { VisualShowcase } from "./designer/VisualShowcase";
@@ -21,6 +23,8 @@ export const TEMPLATES: TemplateMeta[] = [
   { id: "minimal-developer", category: "developer", Component: MinimalDeveloper, defaults: { accent: "#059669", font: "mono", background: "light" } },
   { id: "modern-tech", category: "developer", Component: ModernTech, defaults: { accent: "#6C4CF1", font: "sans", background: "tint" } },
   { id: "creative-coder", category: "developer", Component: CreativeCoder, defaults: { accent: "#22D3EE", font: "mono", background: "dark" } },
+  { id: "dashboard-developer", category: "developer", Component: DashboardDeveloper, defaults: { accent: "#087BD3", font: "sans", background: "light" } },
+  { id: "student-portfolio", category: "developer", Component: StudentPortfolio, defaults: { accent: "#2864e8", font: "sans", background: "tint" } },
   { id: "creative-designer", category: "designer", Component: CreativeDesigner, defaults: { accent: "#F43F5E", font: "sans", background: "light" } },
   { id: "minimalist-designer", category: "designer", Component: MinimalistDesigner, defaults: { accent: "#111827", font: "serif", background: "light" } },
   { id: "visual-showcase", category: "designer", Component: VisualShowcase, defaults: { accent: "#F59E0B", font: "sans", background: "dark" } },

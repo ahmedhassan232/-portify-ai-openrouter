@@ -240,6 +240,14 @@
    "name": "Creative Coder",
    "desc": "Terminal-inspired hero and a bento grid."
   },
+  "dashboard-developer": {
+   "name": "Developer Dashboard",
+   "desc": "A polished dashboard layout with sidebar navigation and project cards."
+  },
+  "student-portfolio": {
+   "name": "Student Portfolio",
+   "desc": "A playful academic portfolio with colourful project cards."
+  },
   "creative-designer": {
    "name": "Creative Designer",
    "desc": "Oversized type and image-first project cards."

@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: "Portify AI: Your CV. Your Story. Your Portfolio.",
   description: "Turn your CV into a professional portfolio website with AI. No account required.",
 };
-export const viewport: Viewport = { themeColor: "#6C4CF1", width: "device-width", initialScale: 1 };
+export const viewport: Viewport = { themeColor: "#16a0d2", width: "device-width", initialScale: 1 };
 
 // Applies the saved language to <html> before first paint so direction never flashes.
 const LANG_SCRIPT = `try{var l=localStorage.getItem('portify:lang');if(l==='ar'||l==='en'){var d=document.documentElement;d.lang=l;d.dir=l==='ar'?'rtl':'ltr'}}catch(e){}`;

@@ -16,7 +16,7 @@ html[lang="ar"] :is(h1, h2):not([data-pf-root] *) { line-height: 1.35; }
 html:not([data-lang-ready]) body { opacity: 0; }
 html[data-lang-ready] body { transition: opacity .12s; }
 
-:focus-visible { outline: 2px solid #6C4CF1; outline-offset: 2px; }
+:focus-visible { outline: 2px solid #14a7d8; outline-offset: 2px; }
 details > summary { list-style: none; }
 details > summary::-webkit-details-marker { display: none; }
 dialog::backdrop { background: rgb(23 22 37 / .55); backdrop-filter: blur(2px); }
