@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 const config: NextConfig = {
   poweredByHeader: false,
-  serverExternalPackages: ["mammoth"],
+  // Native canvas and OCR binaries must stay external to the webpack bundle.
+  serverExternalPackages: ["mammoth", "@napi-rs/canvas", "tesseract.js"],
   async headers() {
     return [{ source: "/(.*)", headers: [
       { key: "X-Content-Type-Options", value: "nosniff" },

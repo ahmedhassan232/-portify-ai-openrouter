@@ -4,7 +4,8 @@ import { detectLanguage, suggestProfession, wordCount } from "@/lib/cv-parser/he
 import { fail, limited } from "@/lib/api";
 
 export const runtime = "nodejs";
-export const maxDuration = 30;
+// OCR can take longer than plain text extraction, especially on multi-page scans.
+export const maxDuration = 60;
 
 export async function POST(req: Request) {
   if (limited(req, "extract", 20)) return fail(429, "rate_limited");
